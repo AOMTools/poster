@@ -116,10 +116,10 @@
       %%% Title
       \begin{minipage}[c]{0.7\textwidth}
         \begin{center}
-          {\sc \huge Strong Atom-Light Interaction in a Near-Concentric \\ \vspace{0.8cm}
+          {\sc \huge Cavity Quantum Electrodynamics With  \\ \vspace{0.8cm}
           
-Optical Resonator}\\[9mm]
-          {\large Chi Huan Nguyen, Kadir Durak, Nick Lewty, Christian Kurtsiefer}\\[9mm]
+A Nearly Concentric Optical Cavity}\\[9mm]
+          {\large Chi Huan Nguyen, Adrian Nugraha Utama, Nick Lewty, Christian Kurtsiefer}\\[6mm]
           Centre for Quantum Technologies, National University of Singapore, Singapore\\
           
         \end{center}
@@ -139,7 +139,7 @@ Optical Resonator}\\[9mm]
 %%%%%%%%%%%%%%%%%%%%%
 %%% Content
 %%%%%%%%%%%%%%%%%%%%%
-\vspace{5cm}
+\vspace{1cm}
 \begin{multicols}{2}
 \setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 
@@ -147,115 +147,121 @@ Optical Resonator}\\[9mm]
           \begin{center}{\bf \Large \textsf {Motivation}}\end{center}
       \end{center}
 
- Strong interaction between an atom and a single photon can be successfully achieved by small mode volume cavities. Typically one would use short cavity lengths to achieve a small mode volume, but high finesse coatings are needed to ensure cavity losses remain less than the coupling strength. An alternative to this is to use a nearly concentric cavity, which achieves small mode volumes but with less stringent requirements on the dielectric coatings of the mirrors [1,2].
+ Strong interaction between photons and neutral single atoms are usually observed in cavity quantum electrodynamics (CQED) systems with high finesse mirrors and small physical volume. An alternative to this is to operate the cavity in a near concentric configuration, which achieves small effective mode volume (if the atom is placed near the strongly focused region). This way, we can just use relatively low finesse mirrors ($\sim$ 100) with large physical separation between the mirrors ($\sim$ 10 mm) [1-3].
 
 \begin{figurehere}
 
     \begin{multicols}{2}
         \begin{center}
             \includegraphics[width=\columnwidth]{cavitything}
-            {
-              
-                $\qquad \mathrm{g_0}= \mathrm{E_f}\mathrm{d_{eff}} =
-                \sqrt{\frac{\pi c R_{\mathrm{sc}}}{\tau L}}
-            $}
-    \columnbreak
-    \hspace*{2cm}
 
             \includegraphics[width=\columnwidth]{coupling_strength.pdf}
 
         \end{center}
     \end{multicols}
 
-  \figcaption{(Left) A nearly concentric optical cavity with a strongly focused mode. (Right) Coupling strength of the strongly focused mode on a closed transition of the $D_2$ line of $^{87}$Rb [2,3]. The focusing strength is the ratio of the input mode waist to half the cavity length.}
+  \figcaption{(Left) The cartoonish picture of our cavity. (Right) The calculated effective mode volume (coming soon). Ignore the current figure on the poster, it is just to bluff those not reading.}
 
 \end{figurehere}
 
 \begin{center}
-  {\bf \Large \textsf {Plano-convex cavity}}
+  {\bf \Large \textsf {Cavity Construction}}
 \end{center}
 
-Initially a cavity was setup with off the shelf plano-convex mirrors in order to understand the behaviour of a cavity in the near concentric regime.  Cavity linewidth and transmission measurements are made for different input beam waist sizes. The measurements are also simulated for comparison.
-
-
-\begin{figurehere}
-  \begin{center}
-    \includegraphics[width=0.7\columnwidth]{plano_convex_abberations.pdf}
-    
-  \end{center}
-\end{figurehere}
-
-
-\figcaption{The measured linewidth with plano-concave mirrors versus the focusing strength (red points). The black line corresponds to the model, taking only the diffraction loss into account. The blue points are the results of the simulation that consider both aberration and diffraction losses.}
-
-
-The experimental results have some agreement with the simulated results on the effect of aberration on the cavity linewidth. Aberrations excite higher order modes, which can not be resolved as the mode separation is very close to the multiples of one free spectral range in the near concentric regime.
-
-
-
-\begin{center}
-     \begin{center} {\bf \Large \textsf {Anaclastic cavity}}\end{center}
-\end{center}
-
-An anaclastic design would reduce these aberrations in the input mode, which would reduce cavity losses below the cavity coupling rate, in the near concentric regime.
+To couple the input mode into the cavity in the near concentric regime, we use anaclastic lens-mirror design, which reduces aberrations and cavity losses of the input mode. We move the mirrors with respect to each other using a 3-dimensional piezo (PZT).
 
 \begin{figurehere}
   \begin{center}
     \includegraphics[width=0.3\columnwidth]{cavity_design}
-   \hspace*{0cm}
+   \hspace*{5cm}
     \includegraphics[width=0.5\columnwidth]{setup_sideon.png}
   \end{center}
 
-  \figcaption{(Left) Anaclastic cavity mirror design. (Right) Anaclastic mirrors are controlled by a 3-axis PZTs for fine alignment.}
+  \figcaption{(Left) Anaclastic lens-mirror design. (Right) Anaclastic mirrors are controlled by a 3-axis PZTs for fine alignment.}
+\end{figurehere}
+
+
+
+\begin{center}
+     \begin{center} {\bf \Large \textsf {Experimental Setup}}\end{center}
+\end{center}
+
+We stabilise our cavity using off resonant laser (ORL) that is properly referenced to our probe laser. As our cavity has a huge physical volume, we can create a MOT inside the cavity. After the cold atomic cloud from the MOT is formed, a far off resonant laser (FORT), which is the same laser as ORL, will trap single atoms into the cavity mode (kind of random process).
+
+\begin{figurehere}
+  \begin{center}
+    \includegraphics[width=\columnwidth]{stabilise.png}
+    \includegraphics[width=\columnwidth]{flou_sig.pdf}
+  \end{center}
+
+  \figcaption{(Top) Some figures that is supposed to describe experimental setup. This was the figure that was used in my presentation. Probably need to redraw to incorporate some more things. (Bottom) The fluorescence signal of the MOT scattered by the atom. A quantum jump signal is observed. We now trigger on the occurences of those signal.}
 \end{figurehere}
 
 \columnbreak
 
 \begin{center}
-     \begin{center} {\bf \Large \textsf {Anaclastic cavity characterisation}}\end{center}
+     \begin{center} {\bf \Large \textsf {Fluorescence Signal}}\end{center}
 \end{center}
 
-Optical characterization of the anaclastic design show that the aberrative losses are reduced and higher order modes of the cavity are suppressed.
+We can determined whether we got single atoms or not just by looking at the fluorescence spectrum. If the fluorescence signal drop very sharply, we are confident to claim that it is single atoms. So, after trigger, we send in the fluorescence beam (MOT beam) in and look at the cases. We can confidently determine around 30\% of cases to be single atoms.
 
 \begin{figurehere}
   \begin{center}
-    \includegraphics[width=\columnwidth]{plano_convex_abberations+cooperativity.pdf}
+    \includegraphics[width=0.4\columnwidth]{Singleatomcases}
+   \hspace*{0cm}
+    \includegraphics[width=0.4\columnwidth]{Othercases}
   \end{center}
 
-\figcaption{(Left) Observed cavity linewidth versus the focusing strength. As the cavity becomes closer to the concentric limit, the finesse drops due to diffraction losses. The blue curve is a simulation of the linewidth which is limited only by diffraction losses. (Right) Estimated single atom cooperativity as a function of the focusing strength for the cavity coupled to the $D_2$ line of $^{87}$Rb. The single atom cooperativity peaks at a focusing strength of 0.4 due to the increase of the cavity linewidth caused by diffraction losses.}
-\end{figurehere}
-
-
-\begin{figurehere}
-  \begin{center}
-    \includegraphics[width=\columnwidth]{cavity_fsr.pdf}
-  \end{center}
-
-\figcaption{(Left) The blue line shows the cavity transmission spectrum for a cavity which is 2.4$~\mu{m}$ shorter than the concentric cavity stability limit. The red line is an error signal from the hyperfine structure of the D$_2$ of $^{87}$Rb, which is shown as a frequency reference. (Right) Zoomed in cavity transmission showing fundamental mode and higher order modes, where the green line is the a fit of the fundamental mode.}
+\figcaption{(Left) Samples of the so-called single atom cases. If you don't believe me, see right. (Right) Atom cases that are not single atoms. Depicted are short atom cases (atom that just comes for a very miliseconds to say hi and bye), long atom cases (atoms that want to stick with us probably forever), and multi atom cases.}
 \end{figurehere}
 
 
 
 \begin{center}
-  {\bf \Large \textsf {Cavity enhanced collection of photons}}
+  {\bf \Large \textsf {Transmission Signal}}
 \end{center}
 
-We formed a MOT at the centre of the cavity mode and measured the number of photons leaking out of the cavity with an SPCM. The peaks in figure 6 are much larger than what would be expected from scattering, indicating an interaction between the cavity field and atoms from the MOT.
+We can also monitor the transmission signal as follows. We set the cavity to be resonant with the atom. You can see that right after trigger, the transmission signal is lower, before the atom escapes out of the trap. 
 
 \begin{figurehere}
   \begin{center}
-    \includegraphics[width=0.7\columnwidth]{cavity_output_hist.pdf}
+    \includegraphics[width=0.7\columnwidth]{huge_extinction.pdf}
   \end{center}
-    \figcaption{Histogram showing number of photons counted by a SPCM in 100$\,ms$ period. The data was generated by forming a MOT in the cavity mode and collecting the photons emitted from the cavity. The peaks represent a number of thermal atoms interacting with cavity mode. The cavity was left passively stable while performing the measurement.}
+
+    \figcaption{You can understand already right? Don't need to explain further right? Hehehehe. In this case, we observed extinction around 30\%}
 \end{figurehere}
+
+
+
+\begin{center}
+  {\bf \Large \textsf {Normal Mode Splitting}}
+\end{center}
+
+When we scan the frequency of the laser, we observed a two resolved normal modes, signifying a strong interaction between atom and cavity. We thus estimated the single atom cooperativity to be around 0.4.
+
+\begin{figurehere}
+  \begin{center}
+    \includegraphics[width=0.7\columnwidth]{triggered_cav_scan.pdf}
+  \end{center}
+
+    \figcaption{Baa, baa, black sheep, Have you any wool? Yes, sir, yes, sir, Three bags full;}
+\end{figurehere}
+
+
+\begin{center}
+  {\bf \Large \textsf {Outlook}}
+\end{center}
+
+Now, we can increase coupling very easy. Just change to new one. After that, we can do all nonsense in quantum information very easily. Hehehehe
+
 
 \begin{flushleft}
        \begin{center}{\bf \large \textsf {References}}\end{center}
        [1] M.K. Tey et.al., New Journal of Physics {\textbf{11}}, 040311 (2009).
-	\newline
-         [2] S.E. Morin, et al., Phys.Rev.Lett., {\textbf {73}} pp.1411 (1994).
-        \newline
-	 [3] S.A. Aljunid et.al., Journal of Modern Optics, {\textbf{58}}, 299-305 (2011).
+	     \newline
+       [2] S.E. Morin, et al., Phys.Rev.Lett., {\textbf {73}} pp.1411 (1994).
+       \newline
+	     [3] K. Durak et.al., New Journal of Physics {\textbf{16}}, 103002 (2014).
 
 \end{flushleft}
     
