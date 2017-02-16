@@ -186,33 +186,45 @@ To couple the input mode into the cavity in the near concentric regime, we use a
      \begin{center} {\bf \Large \textsf {Experimental Setup}}\end{center}
 \end{center}
 
-We stabilise our cavity using off resonant laser (ORL) that is properly referenced to our probe laser. As our cavity has a huge physical volume, we can create a MOT inside the cavity. After the cold atomic cloud from the MOT is formed, a far off resonant laser (FORT), which is the same laser as ORL, will trap single atoms into the cavity mode (kind of random process).
+ Cold Rb atomic cloud is created inside the huge physical volume of the cavity using magnetic optical trap (MOT). Single atoms are loaded from the MOT to the cavity mode using far off resonant trap (FORT), after which we can perform experiments with a weak probe laser.
 
 \begin{figurehere}
   \begin{center}
-    \includegraphics[width=\columnwidth]{stabilise.png}
-    \includegraphics[width=\columnwidth]{flou_sig.pdf}
+    \includegraphics[width=0.8\columnwidth]{stabilise.pdf}
   \end{center}
 
-  \figcaption{(Top) Some figures that is supposed to describe experimental setup. This was the figure that was used in my presentation. Probably need to redraw to incorporate some more things. (Bottom) The fluorescence signal of the MOT scattered by the atom. A quantum jump signal is observed. We now trigger on the occurences of those signal.}
+  \figcaption{Experimental setup. Probe and FORT beams are combined using a dichoric mirror (DM) and coupled to the cavity, where the output mode is then split again using another DM. We use the output light from the FORT to stabilise the cavity length via frequency modulation (FM) technique.}
+
 \end{figurehere}
 
-\columnbreak
 
 \begin{center}
      \begin{center} {\bf \Large \textsf {Fluorescence Signal}}\end{center}
 \end{center}
 
-We can determined whether we got single atoms or not just by looking at the fluorescence spectrum. If the fluorescence signal drop very sharply, we are confident to claim that it is single atoms. So, after trigger, we send in the fluorescence beam (MOT beam) in and look at the cases. We can confidently determine around 30\% of cases to be single atoms.
+To determine if single atoms are loaded in the cavity mode, we monitor the fluorescence originating from MOT laser on the cavity output. We trigger the start of the experiment when the fluorescence level exceeds a set threshold value.
 
 \begin{figurehere}
   \begin{center}
-    \includegraphics[width=0.4\columnwidth]{Singleatomcases}
-   \hspace*{0cm}
-    \includegraphics[width=0.4\columnwidth]{Othercases}
+    \includegraphics[width=\columnwidth]{fluo_signal.pdf}
   \end{center}
 
-\figcaption{(Left) Samples of the so-called single atom cases. If you don't believe me, see right. (Right) Atom cases that are not single atoms. Depicted are short atom cases (atom that just comes for a very miliseconds to say hi and bye), long atom cases (atoms that want to stick with us probably forever), and multi atom cases.}
+  \figcaption{Fluorescence signal of the cavity (no triggering). Upon successful loading of single atoms, telegraphic quantum jump signals are observed.}
+
+\end{figurehere}
+
+\columnbreak
+
+After each triggering events, we monitor the fluorescence signal, from which we determine whether a single atom is trapped in the cavity mode (around 30\% of all events).
+
+\begin{figurehere}
+  \begin{center}
+    \includegraphics[width=0.48\columnwidth]{Plots/SA.eps}
+   \hspace*{0cm}
+    \includegraphics[width=0.48\columnwidth]{Plots/NSA.eps}
+  \end{center}
+
+\figcaption{Sample of fluorescence signals (triggered) due to a single atom (left), or a few atoms or inconclusive - too short or too long (right).}
 \end{figurehere}
 
 
@@ -237,14 +249,14 @@ We can also monitor the transmission signal as follows. We set the cavity to be 
   {\bf \Large \textsf {Normal Mode Splitting}}
 \end{center}
 
-When we scan the frequency of the laser, we observed a two resolved normal modes, signifying a strong interaction between atom and cavity. We thus estimated the single atom cooperativity to be around 0.4.
+We observed normal mode splitting in the cavity transmission spectrum due to the presence of a single atom in the cavity mode. The CQED system parameters are estimated to be $(g,\kappa,\gamma) = 2 \pi \times (10,40,3) \, \mathrm{MHz} $, with the single atom cooperativity $C=0.4$.
 
 \begin{figurehere}
   \begin{center}
     \includegraphics[width=0.7\columnwidth]{triggered_cav_scan.pdf}
   \end{center}
 
-    \figcaption{Baa, baa, black sheep, Have you any wool? Yes, sir, yes, sir, Three bags full;}
+    \figcaption{Cavity transmission spectrum of a weak probe laser, with no trapped atoms (blue) and a trapped single atom (red).}
 \end{figurehere}
 
 
@@ -252,8 +264,7 @@ When we scan the frequency of the laser, we observed a two resolved normal modes
   {\bf \Large \textsf {Outlook}}
 \end{center}
 
-Now, we can increase coupling very easy. Just change to new one. After that, we can do all nonsense in quantum information very easily. Hehehehe
-
+We demonstrate an operational intermediate coupling CQED system in nearly concentric regime with huge physical volume and relatively low finesse cavity. We hope to move towards strong coupling regime in the near future by replacing the cavity mirrors with the ones with higher finesse. Successful realisation of such CQED system will open opportunities for further explorations in strong atom-photon interaction and applications in quantum computing, in particular systems requiring huge physical volume and or low finesse mirrors.
 
 \begin{flushleft}
        \begin{center}{\bf \large \textsf {References}}\end{center}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  15 FEB 2017 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  16 FEB 2017 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,41 +448,64 @@ File: setup_sideon.png Graphic file (type png)
 Package pdftex.def Info: setup_sideon.png used on input line 177.
 (pdftex.def)             Requested size: 536.05322pt x 310.17184pt.
 
-<stabilise.png, id=7, 563.706pt x 186.2157pt>
-File: stabilise.png Graphic file (type png)
- <use stabilise.png>
-Package pdftex.def Info: stabilise.png used on input line 193.
-(pdftex.def)             Requested size: 1072.10645pt x 354.21129pt.
+<stabilise.pdf, id=7, 501.63687pt x 190.57547pt>
+File: stabilise.pdf Graphic file (type pdf)
+ <use stabilise.pdf>
+Package pdftex.def Info: stabilise.pdf used on input line 193.
+(pdftex.def)             Requested size: 857.68842pt x 325.84671pt.
 
-<flou_sig.pdf, id=9, 867.24pt x 144.54pt>
-File: flou_sig.pdf Graphic file (type pdf)
- <use flou_sig.pdf>
-Package pdftex.def Info: flou_sig.pdf used on input line 194.
-(pdftex.def)             Requested size: 1072.10645pt x 178.70721pt.
+<fluo_signal.pdf, id=8, 680.91039pt x 211.28587pt>
+File: fluo_signal.pdf Graphic file (type pdf)
+ <use fluo_signal.pdf>
+Package pdftex.def Info: fluo_signal.pdf used on input line 209.
+(pdftex.def)             Requested size: 1072.10645pt x 332.68994pt.
+Package epstopdf Info: Source file: <Plots/SA.eps>
+(epstopdf)                    date: 2017-02-16 21:38:49
+(epstopdf)                    size: 23587 bytes
+(epstopdf)             Output file: <Plots/SA-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 21:42:43
+(epstopdf)                    size: 6398 bytes
+(epstopdf)             Command: <repstopdf --outfile=Plots/SA-eps-converted-to.
+pdf Plots/SA.eps>
+(epstopdf)             \includegraphics on input line 222.
+Package epstopdf Info: Output file is already uptodate.
 
-<Singleatomcases.pdf, id=10, 505.89pt x 289.08pt>
-File: Singleatomcases.pdf Graphic file (type pdf)
- <use Singleatomcases.pdf>
-Package pdftex.def Info: Singleatomcases.pdf used on input line 210.
-(pdftex.def)             Requested size: 428.83603pt x 245.05309pt.
+<Plots/SA-eps-converted-to.pdf, id=9, 341.275pt x 226.8475pt>
+File: Plots/SA-eps-converted-to.pdf Graphic file (type pdf)
 
-<Othercases.pdf, id=11, 505.89pt x 289.08pt>
-File: Othercases.pdf Graphic file (type pdf)
- <use Othercases.pdf>
-Package pdftex.def Info: Othercases.pdf used on input line 212.
-(pdftex.def)             Requested size: 428.83603pt x 245.05309pt.
+<use Plots/SA-eps-converted-to.pdf>
+Package pdftex.def Info: Plots/SA-eps-converted-to.pdf used on input line 222.
+(pdftex.def)             Requested size: 514.6065pt x 342.08418pt.
+Package epstopdf Info: Source file: <Plots/NSA.eps>
+(epstopdf)                    date: 2017-02-16 21:40:29
+(epstopdf)                    size: 23632 bytes
+(epstopdf)             Output file: <Plots/NSA-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 21:42:43
+(epstopdf)                    size: 6474 bytes
+(epstopdf)             Command: <repstopdf --outfile=Plots/NSA-eps-converted-to
+.pdf Plots/NSA.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
 
-<huge_extinction.pdf, id=12, 578.16pt x 433.62pt>
+<Plots/NSA-eps-converted-to.pdf, id=10, 341.275pt x 226.8475pt>
+File: Plots/NSA-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Plots/NSA-eps-converted-to.pdf>
+Package pdftex.def Info: Plots/NSA-eps-converted-to.pdf used on input line 224.
+
+(pdftex.def)             Requested size: 514.6065pt x 342.08418pt.
+
+<huge_extinction.pdf, id=11, 578.16pt x 433.62pt>
 File: huge_extinction.pdf Graphic file (type pdf)
  <use huge_extinction.pdf>
-Package pdftex.def Info: huge_extinction.pdf used on input line 228.
+Package pdftex.def Info: huge_extinction.pdf used on input line 240.
 (pdftex.def)             Requested size: 750.47124pt x 562.8855pt.
 
-<triggered_cav_scan.pdf, id=13, 722.7pt x 578.16pt>
+<triggered_cav_scan.pdf, id=12, 722.7pt x 578.16pt>
 File: triggered_cav_scan.pdf Graphic file (type pdf)
 
 <use triggered_cav_scan.pdf>
-Package pdftex.def Info: triggered_cav_scan.pdf used on input line 244.
+Package pdftex.def Info: triggered_cav_scan.pdf used on input line 256.
 (pdftex.def)             Requested size: 750.47124pt x 600.3812pt.
  [1
 Non-PDF special ignored!
@@ -499,19 +522,16 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
 CQT_Logo_CMYK.jpg> <./NUS_logo_full-horizontal.jpg> <./cavitything-eps-converte
 d-to.pdf> <./coupling_strength.pdf> <./cavity_design-eps-converted-to.pdf> <./s
-etup_sideon.png> <./stabilise.png> <./flou_sig.pdf
+etup_sideon.png> <./stabilise.pdf
 
-pdfTeX warning: pdflatex (file ./flou_sig.pdf): PDF inclusion: multiple pdfs wi
-th page group included in a single page
-> <./Singleatomcases.pdf
+pdfTeX warning: pdflatex (file ./stabilise.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+> <./fluo_signal.pdf
 
-pdfTeX warning: pdflatex (file ./Singleatomcases.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
-> <./Othercases.pdf
-
-pdfTeX warning: pdflatex (file ./Othercases.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
-> <./huge_extinction.pdf
+pdfTeX warning: pdflatex (file ./fluo_signal.pdf): PDF inclusion: multiple pdfs
+ with page group included in a single page
+> <./Plots/SA-eps-converted-to.pdf> <./Plots/NSA-eps-converted-to.pdf> <./huge_
+extinction.pdf
 
 pdfTeX warning: pdflatex (file ./huge_extinction.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
@@ -521,22 +541,25 @@ pdfTeX warning: pdflatex (file ./triggered_cav_scan.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >] (./Cavity_IPS_2017.aux) ) 
 Here is how much of TeX's memory you used:
- 8823 strings out of 493029
- 159476 string characters out of 6136235
- 241072 words of memory out of 5000000
+ 8824 strings out of 493029
+ 159581 string characters out of 6136235
+ 245235 words of memory out of 5000000
  12228 multiletter control sequences out of 15000+600000
  10301 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,52p,529b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,52p,549b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Cavity_IPS_2017.pdf (1 page, 20555571 bytes).
+ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Cavity_IPS_2017.pdf (1 page, 20567640 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
