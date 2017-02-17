@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  16 FEB 2017 22:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.8)  17 FEB 2017 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,30 +399,11 @@ Overfull \hbox (4.65132pt too wide) in paragraph at lines 130--131
  [] 
  []
 
-Package epstopdf Info: Source file: <cavitything.eps>
-(epstopdf)                    date: 2015-06-12 12:11:09
-(epstopdf)                    size: 10467 bytes
-(epstopdf)             Output file: <cavitything-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-15 16:15:46
-(epstopdf)                    size: 8759 bytes
-(epstopdf)             Command: <repstopdf --outfile=cavitything-eps-converted-
-to.pdf cavitything.eps>
-(epstopdf)             \includegraphics on input line 156.
-Package epstopdf Info: Output file is already uptodate.
-<cavitything-eps-converted-to.pdf, id=3, 304.13625pt x 144.54pt>
-File: cavitything-eps-converted-to.pdf Graphic file (type pdf)
-
-<use cavitything-eps-converted-to.pdf>
-Package pdftex.def Info: cavitything-eps-converted-to.pdf used on input line 15
-6.
-(pdftex.def)             Requested size: 493.37408pt x 234.4821pt.
-
-<coupling_strength.pdf, id=4, 427.7204pt x 294.9796pt>
-File: coupling_strength.pdf Graphic file (type pdf)
-
-<use coupling_strength.pdf>
-Package pdftex.def Info: coupling_strength.pdf used on input line 158.
-(pdftex.def)             Requested size: 493.37408pt x 340.25462pt.
+<mode_vol.pdf, id=3, 429.34077pt x 275.29814pt>
+File: mode_vol.pdf Graphic file (type pdf)
+ <use mode_vol.pdf>
+Package pdftex.def Info: mode_vol.pdf used on input line 156.
+(pdftex.def)             Requested size: 857.68842pt x 549.9942pt.
 Package epstopdf Info: Source file: <cavity_design.eps>
 (epstopdf)                    date: 2015-06-12 12:11:08
 (epstopdf)                    size: 50317 bytes
@@ -431,33 +412,33 @@ Package epstopdf Info: Source file: <cavity_design.eps>
 (epstopdf)                    size: 8159 bytes
 (epstopdf)             Command: <repstopdf --outfile=cavity_design-eps-converte
 d-to.pdf cavity_design.eps>
-(epstopdf)             \includegraphics on input line 175.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
 
-<cavity_design-eps-converted-to.pdf, id=5, 189.70876pt x 185.69376pt>
+<cavity_design-eps-converted-to.pdf, id=4, 189.70876pt x 185.69376pt>
 File: cavity_design-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cavity_design-eps-converted-to.pdf>
 Package pdftex.def Info: cavity_design-eps-converted-to.pdf used on input line 
-175.
+174.
 (pdftex.def)             Requested size: 321.6352pt x 314.862pt.
 
-<setup_sideon.png, id=6, 1256.2935pt x 726.91576pt>
+<setup_sideon.png, id=5, 1256.2935pt x 726.91576pt>
 File: setup_sideon.png Graphic file (type png)
  <use setup_sideon.png>
-Package pdftex.def Info: setup_sideon.png used on input line 177.
+Package pdftex.def Info: setup_sideon.png used on input line 176.
 (pdftex.def)             Requested size: 536.05322pt x 310.17184pt.
 
-<stabilise.pdf, id=7, 501.63687pt x 190.57547pt>
+<stabilise.pdf, id=6, 501.63687pt x 190.57547pt>
 File: stabilise.pdf Graphic file (type pdf)
  <use stabilise.pdf>
-Package pdftex.def Info: stabilise.pdf used on input line 193.
+Package pdftex.def Info: stabilise.pdf used on input line 194.
 (pdftex.def)             Requested size: 857.68842pt x 325.84671pt.
 
-<fluo_signal.pdf, id=8, 680.91039pt x 211.28587pt>
+<fluo_signal.pdf, id=7, 680.91039pt x 211.28587pt>
 File: fluo_signal.pdf Graphic file (type pdf)
  <use fluo_signal.pdf>
-Package pdftex.def Info: fluo_signal.pdf used on input line 209.
+Package pdftex.def Info: fluo_signal.pdf used on input line 212.
 (pdftex.def)             Requested size: 1072.10645pt x 332.68994pt.
 Package epstopdf Info: Source file: <Plots/SA.eps>
 (epstopdf)                    date: 2017-02-16 21:38:49
@@ -467,14 +448,14 @@ Package epstopdf Info: Source file: <Plots/SA.eps>
 (epstopdf)                    size: 6398 bytes
 (epstopdf)             Command: <repstopdf --outfile=Plots/SA-eps-converted-to.
 pdf Plots/SA.eps>
-(epstopdf)             \includegraphics on input line 222.
+(epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
 
-<Plots/SA-eps-converted-to.pdf, id=9, 341.275pt x 226.8475pt>
+<Plots/SA-eps-converted-to.pdf, id=8, 341.275pt x 226.8475pt>
 File: Plots/SA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Plots/SA-eps-converted-to.pdf>
-Package pdftex.def Info: Plots/SA-eps-converted-to.pdf used on input line 222.
+Package pdftex.def Info: Plots/SA-eps-converted-to.pdf used on input line 227.
 (pdftex.def)             Requested size: 514.6065pt x 342.08418pt.
 Package epstopdf Info: Source file: <Plots/NSA.eps>
 (epstopdf)                    date: 2017-02-16 21:40:29
@@ -484,29 +465,40 @@ Package epstopdf Info: Source file: <Plots/NSA.eps>
 (epstopdf)                    size: 6474 bytes
 (epstopdf)             Command: <repstopdf --outfile=Plots/NSA-eps-converted-to
 .pdf Plots/NSA.eps>
-(epstopdf)             \includegraphics on input line 224.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<Plots/NSA-eps-converted-to.pdf, id=10, 341.275pt x 226.8475pt>
+<Plots/NSA-eps-converted-to.pdf, id=9, 341.275pt x 226.8475pt>
 File: Plots/NSA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Plots/NSA-eps-converted-to.pdf>
-Package pdftex.def Info: Plots/NSA-eps-converted-to.pdf used on input line 224.
+Package pdftex.def Info: Plots/NSA-eps-converted-to.pdf used on input line 229.
 
 (pdftex.def)             Requested size: 514.6065pt x 342.08418pt.
 
-<huge_extinction.pdf, id=11, 578.16pt x 433.62pt>
+<huge_extinction.pdf, id=10, 578.16pt x 433.62pt>
 File: huge_extinction.pdf Graphic file (type pdf)
  <use huge_extinction.pdf>
-Package pdftex.def Info: huge_extinction.pdf used on input line 240.
+Package pdftex.def Info: huge_extinction.pdf used on input line 247.
 (pdftex.def)             Requested size: 750.47124pt x 562.8855pt.
+Package epstopdf Info: Source file: <Plots/nsplit.eps>
+(epstopdf)                    date: 2017-02-17 15:52:13
+(epstopdf)                    size: 38287 bytes
+(epstopdf)             Output file: <Plots/nsplit-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-17 16:16:14
+(epstopdf)                    size: 19540 bytes
+(epstopdf)             Command: <repstopdf --outfile=Plots/nsplit-eps-converted
+-to.pdf Plots/nsplit.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
 
-<triggered_cav_scan.pdf, id=12, 722.7pt x 578.16pt>
-File: triggered_cav_scan.pdf Graphic file (type pdf)
+<Plots/nsplit-eps-converted-to.pdf, id=11, 454.69875pt x 341.275pt>
+File: Plots/nsplit-eps-converted-to.pdf Graphic file (type pdf)
 
-<use triggered_cav_scan.pdf>
-Package pdftex.def Info: triggered_cav_scan.pdf used on input line 256.
-(pdftex.def)             Requested size: 750.47124pt x 600.3812pt.
+<use Plots/nsplit-eps-converted-to.pdf>
+Package pdftex.def Info: Plots/nsplit-eps-converted-to.pdf used on input line 2
+65.
+(pdftex.def)             Requested size: 750.47124pt x 563.27731pt.
  [1
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -519,10 +511,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
-CQT_Logo_CMYK.jpg> <./NUS_logo_full-horizontal.jpg> <./cavitything-eps-converte
-d-to.pdf> <./coupling_strength.pdf> <./cavity_design-eps-converted-to.pdf> <./s
-etup_sideon.png> <./stabilise.pdf
+Non-PDF special ignored!]
+Overfull \vbox (32.96939pt too high) has occurred while \output is active []
+
+
+[2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./CQT_Logo_CMYK.jpg> <./
+NUS_logo_full-horizontal.jpg> <./mode_vol.pdf> <./cavity_design-eps-converted-t
+o.pdf> <./setup_sideon.png> <./stabilise.pdf
 
 pdfTeX warning: pdflatex (file ./stabilise.pdf): PDF inclusion: multiple pdfs w
 ith page group included in a single page
@@ -535,31 +530,27 @@ extinction.pdf
 
 pdfTeX warning: pdflatex (file ./huge_extinction.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
-> <./triggered_cav_scan.pdf
-
-pdfTeX warning: pdflatex (file ./triggered_cav_scan.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
->] (./Cavity_IPS_2017.aux) ) 
+> <./Plots/nsplit-eps-converted-to.pdf>] (./Cavity_IPS_2017.aux) ) 
 Here is how much of TeX's memory you used:
- 8824 strings out of 493029
- 159581 string characters out of 6136235
- 245235 words of memory out of 5000000
- 12228 multiletter control sequences out of 15000+600000
+ 8819 strings out of 493029
+ 159406 string characters out of 6136235
+ 246043 words of memory out of 5000000
+ 12224 multiletter control sequences out of 15000+600000
  10301 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,52p,549b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Cavity_IPS_2017.pdf (1 page, 20567640 bytes).
+ 38i,10n,52p,549b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/q
+hvr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
+Output written on Cavity_IPS_2017.pdf (2 pages, 20610861 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
