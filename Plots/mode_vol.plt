@@ -1,5 +1,5 @@
 #!/usr/bin/gnuplot
-set terminal postscript eps color enhanced solid font "Helvetica,33" size 16cm,8cm
+set terminal postscript eps color enhanced solid font "Helvetica,33" size 12cm,6cm
 #set terminal wxt font "Helvetica,30" size 12.6cm,8cm
 set output "mode_vol.eps"
 set border linewidth 1.5
@@ -14,7 +14,7 @@ set xtics 0.5 nomirror
 set xrange [0:2.2]
 unset title
 set xlabel 'length / radius'
-set ylabel 'effective mode volume ({/Symbol l}^3)'
+set ylabel 'mode volume ({/Symbol l}^3)'
 unset grid 
 unset key
 

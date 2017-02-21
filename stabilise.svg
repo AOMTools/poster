@@ -153,17 +153,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="717"
+     inkscape:window-width="1849"
+     inkscape:window-height="1056"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1"
      inkscape:cx="-462.10802"
      inkscape:cy="-375.72505"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-x="1991"
+     inkscape:window-y="51"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g4764"
+     inkscape:current-layer="g4635-4"
      showguides="false" /><g
      id="g10"
      inkscape:groupmode="layer"
@@ -497,7 +497,7 @@
                x="1173.8473"
                y="1858.7474"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:140px;font-family:Arial;-inkscape-font-specification:Arial"
-               id="tspan4631-7">FM board </tspan></text>
+               id="tspan4631-7">     PID </tspan></text>
 </g><path
            inkscape:connector-curvature="0"
            id="path82-7-2-5-8-7-6-8"
