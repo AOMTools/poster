@@ -13,4 +13,5 @@ set xlabel 'time (ms)'
 set ylabel 'normalized probe transmission'
 unset grid
 unset key
-plot [0:41][0:1.3] "extinction_norm_data.dat" w errorbar pointtype 7 lc rgb "red"
+plot [0:41][0:1.3] "extinction_norm_data.dat" w errorbar pointtype 7 lc rgb "red",\
+"fittrans.dat" using 1:2 with lines lc rgb "red"
